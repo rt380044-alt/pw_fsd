@@ -1,0 +1,81 @@
+*{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: magenta !important;
+}
+
+.div1 {
+    border:2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgreen;
+}
+
+.div2 {
+    border:2px solid red;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightcoral;
+}
+#para1{
+    color: blue;
+    font-weight: bold;
+}
+#para2{
+    color: red;
+    font-weight: bold;
+}
+#para3{
+    color: green;
+    font-weight: bold;
+}
+
+h1 {
+    color: red;
+}
+p {
+    color: red;
+}
+div {
+    color: red;
+}
+
+span b {
+    color: blueviolet;
+}
+input[type="text"] {
+    background-color: pink;
+}
+input[type="password"] {
+    background-color: bisque;
+}
+
+div p {
+    background-color: aqua;
+}
+
+
+#typography{
+
+    /* border: 2px solid black; */
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif ;
+     /* line-height: 40px;
+    word-spacing: 40px;
+    letter-spacing: 40px; */
+    width: 75vw;
+    height:75vh;
+    border: 2px solid rebeccapurple;
+    font-size: 1rem;
+}
+.parent {
+    width: 400px;
+}
+.child {
+    width: 50%;
+}
+

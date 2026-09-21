@@ -1,0 +1,27 @@
+/* button {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition:background 0.3s;
+    /* transition: property duration timing-function delay */
+
+
+/* button:hover{ */
+    /* transform: scale(1.2); */
+/* } */
+
+.box {
+    width: 150px;
+    height: 150px;
+    background: skyblue;
+    transition: 0.3s;
+}
+.box:hover{
+    background: red;
+}
+.dropdown{
+    display: block;
+    
+}

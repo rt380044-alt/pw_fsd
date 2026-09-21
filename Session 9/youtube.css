@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns:  250px 1fr;
+
+
+    grid-template-areas: "header header" 'sidebar' 'footer footer';
+    gap: 20x;
+}
+
+header {
+    grid-area: header;
+    grid-column: 1/-1;
+    background: orange;
+    padding: 20px;
+}
+
+aside{
+    background: skyblue;
+    padding: 20px;
+    grid-area: main;
+}
+main{
+    background: lightblue;
+    padding: 20px;
+    grid-area: main;
+}
+footer{
+    grid-area:footer ;
+}
