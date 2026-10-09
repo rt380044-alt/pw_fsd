@@ -96,16 +96,17 @@ span{
   } */
 
     .Box{
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
         position:absolute; 
+        overflow: hidden;
     }
     .red {
         
         background: red;
         top: 50px;
         left: 50px;
-        z-index: 2;
+        z-index: 2 ;
     }
 
     .blue {
@@ -120,7 +121,7 @@ span{
     .heading{
         color: blue;
     }
-    #tittle {
+    #title {
         color: green;
     }
     * {

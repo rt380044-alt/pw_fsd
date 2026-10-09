@@ -24,9 +24,14 @@ a::after {
 }
 /* a::hover::after {
     width: 100%;
-}
+}*/
 button {
     position: relative;
+    background: blue;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
 }
 button::after {
     content: '3';
@@ -46,6 +51,7 @@ button::after {
     color: red;
     font-weight: bold;
  } */
+  
 
 *{
   margin: 0;

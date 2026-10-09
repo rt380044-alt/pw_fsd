@@ -27,13 +27,15 @@ body{
 }
 
 
-.progress-bar::after{
-    content: 10%;
+.progress-bar::after {
+    content: "30%";
     position: absolute;
-    left: 10%;
-    top: 20%;
-    color: white;
-    font-size: 12px;
+    right: 8px;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%);
+    color: #333;
+    font-size: 11px;
     font-weight: bold;
 }
 .progress-container:hover .progress-bar {
