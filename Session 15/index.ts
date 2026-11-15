@@ -166,4 +166,65 @@ do {
             continue; // Skip the rest of the loop for k=3
         }
 
+// Breck statement
 
+for (let i=1; i<=10; i++) {
+    if (i == 5) {
+        continue;
+    }
+    console.log(i);
+}
+
+// Counter
+
+let nums =[7, 2, 7, 5, 7, 8];
+
+// Q- I have to find the count of occurence of seven
+
+let count = 0;
+for(let i = 0; i<nums.length;i++ ){
+    if(nums[i] == 7){
+      count++;
+    }
+}
+// count = 3
+console.log("Seven count" + count);
+
+let num1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// Q - Find how many even numbers are there?
+
+let count1 = 0;
+
+for (let i = 0; i < num1.length; i++) {
+    if(num1[1] % 2 === 0) {
+        count1++;
+    }
+}
+
+console.log(count1);
+
+
+// Accumalator
+
+// Q -> find sun of fist 5 run startng from 1
+let sum = 0;
+for(let i =1; i <= 5; i++) {
+    sum+= i;
+}
+
+console.log(sum);
+
+// *
+// **
+// ***
+// ****
+// *****
+
+for (let i = 1; i = 5; i++) {
+    let row = "";
+    for (let j = 1; j <= i; j++) {
+        row += "*";
+    }
+    console.log(row);
+}
